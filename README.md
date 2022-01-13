@@ -26,14 +26,6 @@ obteniendo _la respuesta_ "correcta".
    para su repositorio.
 4. Espera nuestra respuesta.
 
-## Preguntas
-
-### 1.
-
-### 2.
-
-### 3.
-
 ## Estructura del repositorio
 
 El Stack de la aplicaciones de ejemplo es un sitio de blogs sociales (es decir, un clon de Medium.com) llamado "Conduit". Utiliza una API personalizada para todas las solicitudes, incluida la autenticación.
