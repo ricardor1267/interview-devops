@@ -1,128 +1,93 @@
-# Voleer DevOps Challenge
+# Direccion de Gobierno Digital DevOps Desafío
 
-## Preface
+## Prólogo
 
-This challenge is meant to see how you would approach a problem and not to see
-how well you deliver a solution that we think is right. You should not focus on
-getting _the_ "right" answer.
+Este desafío está destinado a ver cómo abordaría un problema y no a ver
+qué tan bien entrega una solución que creemos que es correcta. No debes concentrarte en
+obteniendo _la respuesta_ "correcta".
 
-- The **#Instructions** below are general steps to get you started.
+- Las **Instrucciones** a continuación son pasos generales para comenzar.
 
-- The **#Questions** section has short-response questions to answer.
+- La sección **Questions** tiene preguntas de respuesta corta para responder.
 
-  For each question, you can answer it inline directly in the README.md in your forked repo.
+  Para cada pregunta, puede responderla en línea directamente en README.md en su repositorio Fork.
 
-- The **#Challenges** section has more open-ended problems for you to solve in
-  any way you see fit.
+- La sección **Desafío** tiene más problemas abiertos para que los resuelvas en de la forma que creas conveniente.
 
-  For each challenge listed below, you can propose your approach, it's always a
-  bonus if you can execute your proposal. Some challenges are posted as open-ended
-  questions and you can answer them inline.
+  Para cada desafío enumerado a continuación, puede proponer su enfoque, siempre es una ventaja si puede ejecutar su propuesta. Algunos desafíos se publican como abiertos. preguntas y puedes responderlas en línea.
 
-  The challenges are estimated to take between **2 - 8 hours** depending on how familiar
-  you are with containerization technology. Research time is also accounted for in the
-  estimated duration.
+  Se estima que los desafíos toman entre **2 - 8 horas** dependiendo de qué tan familiarizado usted está con la tecnología de contenerización. El tiempo de investigación también se contabiliza en la duración estimada.
 
-## Instructions
+## Instrucciones
 
-1. Download this repo and, using this one as the base, create a new **private** repo.
-2. Provide your answers in your generated repo.
-3. Once your repo is ready for review, you can add `voleer-dev` user as a collaborator
-   for your repo.
-4. Wait for our response.
+1. Descargue este repositorio y, usándolo como base, cree un nuevo repositorio **privado**.
+2. Proporcione sus respuestas en su repositorio generado.
+3. Una vez que su repositorio esté listo para su revisión, puede agregar al usuario `` como colaborador
+   para su repositorio.
+4. Espera nuestra respuesta.
 
-## Questions
+## Preguntas
 
-### 1. What even is DevOps?
+### 1.
 
-DevOps can mean different things depending on the company you work for or who you talk to.
-At BitTitan, we believe that "**Principles and Mindset > Practices > Tools**".
+### 2.
 
-- What is your take on the definition of DevOps?
+### 3.
 
-- Why has DevOps gained so much prominence recently?
+## Estructura del repositorio
 
-### 2. Testing philosophy
+El Stack de la aplicaciones de ejemplo es un sitio de blogs sociales (es decir, un clon de Medium.com) llamado "Conduit". Utiliza una API personalizada para todas las solicitudes, incluida la autenticación.
 
-One aspect of writing code, whether it's in a scripting or programming language, is testing. Everyone seems to agree that it is important but not everyone does it.
-
-- What is your personal testing philosophy and how do you test your code?
-
-- What are some considerations to keep in mind when writing code with respect to testing?
-
-### 3. Weapons of choice
-
-There are so many tools available to us DevOps folks that it can be hard to keep up with all of them. Help us understand the weapons you choose to wield inside or outside of work.
-
-- What is your primary OS?
-
-- What shell do you use most often?
-
-- Which scripting language(s) are you comfortable using? Which one is your favorite and why?
-
-- Which programming language(s) are you comfortable using? Which one is your favorite and why?
-
-- Which cloud provider(s) have you had experience with and what have you used them for?
-
-- Name a few tools/applications that you use and describe their purpose in your work.
-
-## Repo structure
-
-The example application stack is a social blogging site (i.e. a Medium.com clone) called "Conduit". It uses a custom API for all requests, including authentication.
-
-**In this repo, you will find:**
+**En este repositorio, usted encontrará:**
 
 - [./api](./api):
 
-  - API specification and some utilities to test the backend.
+  - Especificación de API y algunas utilidades para probar el backend.
 
 - [./src/frontend](./src/frontend):
 
-  - Source code for frontend UI application using React.js. You can read more about it in [./src/frontend/README.md](./src/frontend/README.md).
-  - Locally, the application runs on http://localhost:4100
+  - Código fuente para la aplicación de interfaz de usuario de interfaz de usuario usando React.js. Puedes leer más al respecto en [./src/frontend/README.md](./src/frontend/README.md).
+  - Localmente, la aplicación se ejecuta en http://localhost:4100
 
 - [./src/backend.v1](./src/backend.v1):
 
-  - Source code for legacy backend server code. This is written in Golang, and you can read more about it in [./src/backend.v1/readme.md](./src/backend.v1/readme.md).
-  - Locally, the application runs on http://localhost:8080
+  - Código fuente para el código del servidor backend heredado. Esto está escrito en Golang, y puedes leer más al respecto en [./src/backend.v1/readme.md](./src/backend.v1/readme.md).
+  - Localmente, la aplicación se ejecuta en http://localhost:8080
 
 - [./src/backend.v2](./src/backend.v2):
 
-  - Source code for new backend server code that we are still developing. This is written in .NET Core, and you can read more about it in [./src/backend.v2/readme.md](./src/backend.v2/readme.md).
-  - Locally, the application runs on http://localhost:5000
+  - Código fuente para el nuevo código del servidor backend que aún estamos desarrollando. Esto está escrito en .NET Core, y puede leer más al respecto en [./src/backend.v2/readme.md](./src/backend.v2/readme.md).
+  - Localmente, la aplicación se ejecuta en http://localhost:5000
 
-## Challenges
+## Desafíos
 
-The following challenges are related to the repo. To provide your take on the
-challenges, remember to commit your answers to your repo.
+Los siguientes desafíos están relacionados con el repositorio. Para dar su opinión sobre el
+desafíos, recuerde enviar sus respuestas a su repositorio.
 
-### 1. Can we Containerize these services?
+### 1. ¿Podemos contenerizar estos servicios?
 
-We have heard good things about containerization technology, and think what if
-we bring in to our application stack. Can you help Containerize the `frontend`, `backend.v1` and `backend.v2`?
+Hemos escuchado cosas buenas docker y pensamos qué pasaría si traemos a nuestra stack de aplicaciones.
+¿Puedes ayudar a Dockerizar `frontend`, `backend.v1` y `backend.v2`?
 
-We have provided a basic `Dockerfile` in each service's folder to help you get started.
+Hemos proporcionado un `Dockerfile` básico en la carpeta de cada servicio para ayudarlo a comenzar.
 
-### 2. Can we automate the container build?
+### 2. ¿Podemos automatizar la construcción del contenedor?
 
-Currently, our developers have to manually run `docker build` after they make changes. Can you write a script to
-automate the build process and start a new container with the updated image?
+Actualmente, nuestros desarrolladores tienen que ejecutar manualmente `docker build` después de realizar cambios. ¿Puedes escribir un Docker Composer para automatizar el proceso de compilación y comenzar un nuevo contenedor con la imagen actualizada?
 
-### 3. Have you heard of that Kubernetes thing?
+### 3. ¿Has oído hablar de Kubernetes?
 
-[Kubernetes](https://kubernetes.io/) seems like a great tool to help us with deploying, scaling, and managing these containerized services.
+[Kubernetes](https://kubernetes.io/) parece una gran herramienta para ayudarnos con la implementación, el escalado y la administración de estos servicios en contenedores.
 
-Can you create a `yaml` file for each service with the necessary Kubernetes resources that will allow us to scale them out in the future?
+¿Puede crear un archivo `yaml` para cada servicio con los recursos necesarios de Kubernetes que nos permitirá escalarlos en el futuro?
 
-### 4. (Extra) Ship it.
+### 4. ¿Has oído hablar de Infraestructura como código?
 
-Infrastructure as code (IaC) is really popular.
+La infraestructura como código (IaC) es muy popular.
 
-- How is it related to Kubernetes?
-- Would IaC help us? If it would, how do we apply it to our stack?
+[Terraform](https://www.terraform.io/) es una infraestructura de código abierto como herramienta de código desarrollada por HashiCorp.
 
-**Nice to have:** It would be a super cool demo to our stakeholders if we can get the applications online and they can access it from their computer.
-It's okay if it's a just an IP address or some random domain name.
+¿Puede crear un archivo `tf` para realizar el despliegue del cluster de kubernetes creado en el paso anterios?
 
-If you want to take up this challenge. Please send an email to us and we will provide you
-with a limited access to a Kubernetes cluster that you can deploy the applications there. But if you have your own solution, go for it.
+**Es bueno tener:** Sería una demostración genial para nuestras partes interesadas si pudiéramos poner las aplicaciones en línea y pudieran acceder a ellas desde su computadora.
+Está bien si es solo una dirección IP o un nombre de dominio aleatorio.
