@@ -8,10 +8,6 @@ obteniendo _la respuesta_ "correcta".
 
 - Las **Instrucciones** a continuación son pasos generales para comenzar.
 
-- La sección **Questions** tiene preguntas de respuesta corta para responder.
-
-  Para cada pregunta, puede responderla en línea directamente en README.md en su repositorio Fork.
-
 - La sección **Desafío** tiene más problemas abiertos para que los resuelvas en de la forma que creas conveniente.
 
   Para cada desafío enumerado a continuación, puede proponer su enfoque, siempre es una ventaja si puede ejecutar su propuesta. Algunos desafíos se publican como abiertos. preguntas y puedes responderlas en línea.
@@ -51,7 +47,7 @@ El Stack de la aplicaciones de ejemplo es un sitio de blogs sociales (es decir, 
   - Código fuente para el nuevo código del servidor backend que aún estamos desarrollando. Esto está escrito en .NET Core, y puede leer más al respecto en [./src/backend.v2/readme.md](./src/backend.v2/readme.md).
   - Localmente, la aplicación se ejecuta en http://localhost:5000
 
-## Desafíos
+## Desafío
 
 Los siguientes desafíos están relacionados con el repositorio. Para dar su opinión sobre el
 desafíos, recuerde enviar sus respuestas a su repositorio.
