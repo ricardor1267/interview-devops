@@ -2,30 +2,31 @@
 
 ## Prólogo
 
-Este desafío está destinado a ver cómo abordaría un problema y no a ver
-qué tan bien entrega una solución que creemos que es correcta. No debes
-concentrarte en obtener _la respuesta_ "correcta".
+Este desafío está destinado más a ver cómo abordarías o resolverías un problema y no 
+tanto a ver qué tan correcta o incorrecta es una solución. Por eso, lo más importante
+es que resuelvas el problema y luego, si te queda tiempo, sorpréndenos con tus detalles
+de la implementación. 
 
 - Las **Instrucciones** a continuación son pasos generales para comenzar.
 
-- La sección **Desafío** tiene más problemas abiertos para que los resuelvas en de la forma que creas conveniente.
+- La sección **Desafíos** tiene los desafíos propuestos, para que los resuelvas de la mejor forma que estimes conveniente.
 
-  Para cada desafío enumerado a continuación, puede proponer su enfoque, siempre es una ventaja si puede ejecutar su propuesta. Algunos desafíos se publican como preguntas abiertas y puedes responderlas en línea.
-
-  Se estima que los desafíos toman entre **2 - 8 horas** dependiendo de qué tan familiarizado usted está con la tecnología de contenerización. El tiempo de investigación también se contabiliza en la duración estimada.
+  Para cada desafío enumerado a continuación, puedes proponer tu desarrollo. 
+  Siempre es una ventaja si puede ejecutar en el computador del revisor. 
 
 ## Instrucciones
 
-1. Descargue este repositorio y, usándolo como base, cree un nuevo repositorio **privado**.
-2. Proporcione sus respuestas en su repositorio generado.
-3. Una vez que su repositorio esté listo para su revisión, puede agregar al usuario `friveroscl` como colaborador para su repositorio.
+1. Descarga este repositorio y, usándolo como base, crea un nuevo repositorio **privado**.
+2. Sube tu código, instrucciones o cualquier otro artefacto que hayas generado como parte de tus respuestas, a tu repositorio privado.
+3. Una vez que tu repositorio esté listo para la revisión, agrega al usuario `friveroscl` como colaborador para que lo pueda descargar.
 4. Espera nuestra respuesta.
 
 ## Estructura del repositorio
 
-El stack de la aplicaciones de ejemplo es un sitio de blogs sociales (es decir, un clon de Medium.com) llamado "Conduit". Utiliza una API personalizada para todas las solicitudes, incluida la autenticación.
+El stack de la aplicaciones de ejemplo es un sitio de blogs sociales (es decir, un clon de Medium.com) llamado "Conduit". 
+Utiliza una API personalizada para todas las solicitudes, incluida la autenticación.
 
-**En este repositorio, usted encontrará:**
+**En este repositorio, encontrarás:**
 
 - [./api](./api):
 
@@ -43,12 +44,12 @@ El stack de la aplicaciones de ejemplo es un sitio de blogs sociales (es decir, 
 
 - [./src/backend.v2](./src/backend.v2):
 
-  - Código fuente para el nuevo código del servidor backend que aún estamos desarrollando. Esto está escrito en .NET Core, y puede leer más al respecto en [./src/backend.v2/readme.md](./src/backend.v2/readme.md).
+  - Código fuente para el nuevo código del servidor backend que aún estamos desarrollando. Esto está escrito en .NET Core, y puedes leer más al respecto en [./src/backend.v2/readme.md](./src/backend.v2/readme.md).
   - Localmente, la aplicación se ejecuta en http://localhost:5000
 
-## Desafío
+## Desafíos
 
-Los siguientes desafíos están relacionados con el repositorio. Para dar su opinión sobre el desafío, recuerde enviar sus respuestas a su repositorio.
+Los siguientes desafíos están relacionados con el repositorio. Para dar su opinión sobre el desafío, recuerde subir sus respuestas a su repositorio.
 
 ### 1. ¿Podemos contenerizar estos servicios?
 
@@ -66,7 +67,7 @@ Actualmente, nuestros desarrolladores tienen que ejecutar manualmente `docker bu
 
 [Kubernetes](https://kubernetes.io/) parece una gran herramienta para ayudarnos con la implementación, el escalado y la administración de estos servicios en contenedores.
 
-¿Puede crear un archivo `yaml` para cada servicio con los recursos necesarios de Kubernetes que nos permitirá escalarlos en el futuro?
+¿Puedes crear un archivo `yaml` para cada servicio con los recursos necesarios de Kubernetes que nos permitirá escalarlos en el futuro?
 
 ### 4. ¿Has oído hablar de Infraestructura como código?
 
@@ -74,7 +75,7 @@ La infraestructura como código (IaC) es muy popular.
 
 [Terraform](https://www.terraform.io/) es una infraestructura de código abierto como herramienta de código desarrollada por HashiCorp.
 
-¿Puede crear un archivo `tf` para realizar el despliegue del cluster de kubernetes creado en el paso anterios?
+¿Puedes crear un archivo `tf` para realizar el despliegue del cluster de kubernetes creado en el paso anterios?
 
 **Es bueno tener:** Sería una demostración genial para nuestras partes interesadas si pudiéramos poner las aplicaciones en línea y pudieran acceder a ellas desde su computadora.
 
