@@ -3,14 +3,14 @@
 ## Prólogo
 
 Este desafío está destinado a ver cómo abordaría un problema y no a ver
-qué tan bien entrega una solución que creemos que es correcta. No debes concentrarte en
-obteniendo _la respuesta_ "correcta".
+qué tan bien entrega una solución que creemos que es correcta. No debes
+concentrarte en obtener _la respuesta_ "correcta".
 
 - Las **Instrucciones** a continuación son pasos generales para comenzar.
 
 - La sección **Desafío** tiene más problemas abiertos para que los resuelvas en de la forma que creas conveniente.
 
-  Para cada desafío enumerado a continuación, puede proponer su enfoque, siempre es una ventaja si puede ejecutar su propuesta. Algunos desafíos se publican como abiertos. preguntas y puedes responderlas en línea.
+  Para cada desafío enumerado a continuación, puede proponer su enfoque, siempre es una ventaja si puede ejecutar su propuesta. Algunos desafíos se publican como preguntas abiertas y puedes responderlas en línea.
 
   Se estima que los desafíos toman entre **2 - 8 horas** dependiendo de qué tan familiarizado usted está con la tecnología de contenerización. El tiempo de investigación también se contabiliza en la duración estimada.
 
@@ -18,13 +18,12 @@ obteniendo _la respuesta_ "correcta".
 
 1. Descargue este repositorio y, usándolo como base, cree un nuevo repositorio **privado**.
 2. Proporcione sus respuestas en su repositorio generado.
-3. Una vez que su repositorio esté listo para su revisión, puede agregar al usuario `` como colaborador
-   para su repositorio.
+3. Una vez que su repositorio esté listo para su revisión, puede agregar al usuario `friveroscl` como colaborador para su repositorio.
 4. Espera nuestra respuesta.
 
 ## Estructura del repositorio
 
-El Stack de la aplicaciones de ejemplo es un sitio de blogs sociales (es decir, un clon de Medium.com) llamado "Conduit". Utiliza una API personalizada para todas las solicitudes, incluida la autenticación.
+El stack de la aplicaciones de ejemplo es un sitio de blogs sociales (es decir, un clon de Medium.com) llamado "Conduit". Utiliza una API personalizada para todas las solicitudes, incluida la autenticación.
 
 **En este repositorio, usted encontrará:**
 
@@ -49,19 +48,19 @@ El Stack de la aplicaciones de ejemplo es un sitio de blogs sociales (es decir, 
 
 ## Desafío
 
-Los siguientes desafíos están relacionados con el repositorio. Para dar su opinión sobre el
-desafíos, recuerde enviar sus respuestas a su repositorio.
+Los siguientes desafíos están relacionados con el repositorio. Para dar su opinión sobre el desafío, recuerde enviar sus respuestas a su repositorio.
 
 ### 1. ¿Podemos contenerizar estos servicios?
 
-Hemos escuchado cosas buenas docker y pensamos qué pasaría si traemos a nuestra stack de aplicaciones.
+Hemos escuchado cosas buenas docker y pensamos qué pasaría si lo traemos a nuestro stack de aplicaciones.
+
 ¿Puedes ayudar a Dockerizar `frontend`, `backend.v1` y `backend.v2`?
 
 Hemos proporcionado un `Dockerfile` básico en la carpeta de cada servicio para ayudarlo a comenzar.
 
 ### 2. ¿Podemos automatizar la construcción del contenedor?
 
-Actualmente, nuestros desarrolladores tienen que ejecutar manualmente `docker build` después de realizar cambios. ¿Puedes escribir un Docker Composer para automatizar el proceso de compilación y comenzar un nuevo contenedor con la imagen actualizada?
+Actualmente, nuestros desarrolladores tienen que ejecutar manualmente `docker build` después de realizar cambios. ¿Puedes escribir un docker-compose para automatizar el proceso de compilación y comenzar un nuevo contenedor con la imagen actualizada?
 
 ### 3. ¿Has oído hablar de Kubernetes?
 
@@ -78,4 +77,5 @@ La infraestructura como código (IaC) es muy popular.
 ¿Puede crear un archivo `tf` para realizar el despliegue del cluster de kubernetes creado en el paso anterios?
 
 **Es bueno tener:** Sería una demostración genial para nuestras partes interesadas si pudiéramos poner las aplicaciones en línea y pudieran acceder a ellas desde su computadora.
+
 Está bien si es solo una dirección IP o un nombre de dominio aleatorio.
