@@ -1,5 +1,11 @@
 # Direccion de Gobierno Digital DevOps Desafío
 
+IP de trabajo 
+http://168.181.185.115:4100/
+
+No logre dokerizar el backend.v1 mil disculpas
+
+
 ## Prólogo
 
 Este desafío está destinado más a ver cómo abordarías o resolverías un problema y no 
