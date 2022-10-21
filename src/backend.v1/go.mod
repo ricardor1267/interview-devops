@@ -2,6 +2,8 @@ module github.com/wangzitian0/golang-gin-starter-kit
 
 go 1.12
 
+
+
 require (
 	github.com/denisenkom/go-mssqldb v0.0.0-20191001013358-cfbb681360f0 // indirect
 	github.com/dgrijalva/jwt-go v0.0.0-20170608005149-a539ee1a749a
@@ -20,4 +22,7 @@ require (
 	golang.org/x/crypto v0.0.0-20191010185427-af544f31c8ac
 	google.golang.org/appengine v1.6.5 // indirect
 	gopkg.in/go-playground/validator.v8 v8.18.2
+	
 )
+
+
