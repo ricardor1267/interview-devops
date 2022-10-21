@@ -9,6 +9,7 @@ RUN npm install
 
 COPY . .
 
+#puerto de trabajo
 EXPOSE 4100
 
 
